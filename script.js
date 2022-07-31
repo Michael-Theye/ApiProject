@@ -33,7 +33,7 @@ function displayData(pokemon) {
     const pokeName = document.createElement('h3')
     pokeName.textContent = pokemon.species.name;
     PokeDiv.appendChild(pokeName)
-
+    // screen.orientation.lock({PokeDiv})
 
     const PokeSprites = document.createElement('img')
     PokeSprites.src = pokemon.sprites.front_default;
